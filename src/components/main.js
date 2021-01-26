@@ -14,8 +14,7 @@ const useStyles = makeStyles({
 export const Home = () => {
     const classes = useStyles()
     return (
-        <>
-            
+        <>  
             <Navbar />
             <Header />
             <Particles

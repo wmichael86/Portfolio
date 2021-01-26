@@ -100,4 +100,6 @@ const Contacts = () => {
   );
 };
 
+// USE EMAIL.JS for submission to my email!
+
 export default Contacts;

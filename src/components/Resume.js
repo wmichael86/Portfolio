@@ -269,6 +269,37 @@ const myStyles = makeStyles(theme => ({
                     quos.
                   </Typography>
                 </Box>
+                <Typography
+                  variant="h2"
+                  className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+                >
+                  Dates TBD
+                </Typography>
+                <Box component="div" className={classes.timeLineItem}>
+                  <Typography
+                    variant="h5"
+                    aligh="center"
+                    className={classes.subHeading}
+                  >
+                    Skill or education
+                  </Typography>
+                  <Typography
+                    variant="body1"
+                    aligh="center"
+                    style={{ color: "tomato" }}
+                  >
+                    Project or company
+                  </Typography>
+                  <Typography
+                    variant="subtitle1"
+                    aligh="center"
+                    style={{ color: "tan" }}
+                  >
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+                    officiis? Veritatis dolore eum eos sequi iste iure possimus ad
+                    quos.
+                  </Typography>
+                </Box>
               </Box>
             </Box>
           </>

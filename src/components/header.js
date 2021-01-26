@@ -65,5 +65,3 @@ const Header = () => {
 }
 
 export default Header
-
-// Pickup in video at timestamp:48:34 tomorrow 

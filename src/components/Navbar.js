@@ -16,18 +16,19 @@ import {
   ListItemIcon,
 } from "@material-ui/core";
 import {
-  ArrowBack,
   AssignmentInd,
   Home,
   Apps,
   ContactMail,
 } from "@material-ui/icons";
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import avatar from "../images/MichaelAvatar.svg";
 
 //CSS styles
 const myStyles = makeStyles((theme) => ({
   menuSliderContainer: {
-    width: 250,
+    width: 200,
     background: "#511",
     height: "100%",
   },
@@ -82,6 +83,9 @@ const Navbar = () => {
       className={classes.menuSliderContainer} 
       component="div"
       onClick={toggleSlider(slider, false)}>
+      <ChevronRightIcon 
+        style={{ color: "tomato", cursor: 'pointer' }}
+      />
         <Avatar
           className={classes.avatar}
           src={avatar}
@@ -111,7 +115,7 @@ const Navbar = () => {
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "tomato" }} />
+              <ChevronLeftIcon style={{ color: "tomato" }} />
             </IconButton>
             <Typography variant="h5" style={{ color: "tan" }}>
               Portfolio
