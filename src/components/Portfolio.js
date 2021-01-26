@@ -15,7 +15,9 @@ import Navbar from "./Navbar";
 import project1 from "../images/Nucamp.png";
 import project2 from "../images/monstersRolodex.jpg";
 import project3 from "../images/crown.jpg";
-import project4 from "../images/mern-stack.jpg";
+import project4 from "../images/nucampreactcover.jpg";
+import project5 from "../images/nucampreactnative.jpg";
+import Certifications from '../images/software-engineers-vector.png'
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -140,13 +142,12 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 4
+                  NuCamp React Build 
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officia architecto natus ipsa dignissimos porro rem neque,
-                  repudiandae libero sapiente iste perferendis quidem quae
-                  numquam ducimus pariatur voluptatem ex! A, laboriosam!
+                  After the successfull completion of Bootstrap build of this site we dive into core React concepts.
+                  Utilizing Redux for state managment for this build,taking advantage of Middleware such as Thunk. 
+                  Execution of yarn package manager to start and build production files.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -168,11 +169,11 @@ const Portfolio = () => {
                 component="img"
                 alt="Project 3"
                 height="140"
-                image={project3}
+                image={project5}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 5
+                  Nucamp React Native
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -200,17 +201,16 @@ const Portfolio = () => {
                 component="img"
                 alt="Project 4"
                 height="140"
-                image={project4}
+                image={Certifications}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
                   Certifications
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officia architecto natus ipsa dignissimos porro rem neque,
-                  repudiandae libero sapiente iste perferendis quidem quae
-                  numquam ducimus pariatur voluptatem ex! A, laboriosam!
+                  Please explore all my Certifications and where each was obtained. 
+                  Thank you for looking at my Project Page :). Now please see my contact page to reach me for an interview or to connect.
+                  Happy Hacking!
                 </Typography>
               </CardContent>
             </CardActionArea>
